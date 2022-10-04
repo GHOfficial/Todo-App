@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Code+Pro:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+}
+
+
+#grad {
+    background-image: linear-gradient(to left, blue , rgb(141, 135, 175));
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todo-input {
+    margin-top: 5px;
+    height: 30px;
+}
+
+.todo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 190px;
+    margin-right: 200px;
+    padding: 2px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Source code Pro';
+}
+
+/* footer {
+    display: flex;
+    
+    justify-content: baseline;
+    align-items: center;
+} */
+
+@media screen and (min-width: 480px){
+    .todo-list {
+        margin-left: 190px;
+    }
+}
