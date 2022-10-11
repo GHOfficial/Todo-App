@@ -63,13 +63,6 @@ h1 {
     font-family: 'Source code Pro';
 }
 
-/* footer {
-    display: flex;
-    
-    justify-content: baseline;
-    align-items: center;
-} */
-
 @media screen and (min-width: 480px){
     .todo-list {
         margin-left: 190px;
